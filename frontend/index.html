@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Productos</title>
+    <link rel="stylesheet" href="./style.css"> <!-- Archivo de estilos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Gestión de Productos</h1>
+    </header>
+    <main>
+        <section id="productos-container"></section>
+    </main>
+    <h2>Agregar Producto</h2>
+<form id="form-agregar">
+    <input type="text" id="nombre" placeholder="Nombre del producto" required />
+    <textarea id="descripcion" placeholder="Descripción del producto"></textarea>
+    <input type="number" id="precio" placeholder="Precio" required />
+    <button type="submit">Agregar</button>
+</form>
+
+    <footer>
+        <p>&copy; 2024 - Gestión de Productos</p>
+    </footer>
+    <script src="./app.js"></script> 
+</body>
+</html>

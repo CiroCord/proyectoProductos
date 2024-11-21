@@ -1,0 +1,111 @@
+
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    background-color: #FEF5C8;
+}
+header{
+    padding: 40px;
+    background-color: #632315;
+    color: #FEF5C8;
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 0px;
+}
+main{
+    
+}
+#productos-container {
+    display: flex;
+}
+
+#productos-container div {
+    background-color: #632315;
+    color: #fffcea;
+    margin: 10px;
+    padding: 10px;
+   min-width: 200px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+button {
+    background-color: #fffcea;
+    color: #632315;
+    border: none;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100px;
+    transition: all 0.5s ease;
+}
+button:hover {
+    background: none;
+    box-sizing: border-box;
+    border: solid 1px #fffcea;
+    color: #fffcea;
+}
+#form-agregar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 30%;
+    margin: 10px;
+}
+#form-agregar input,#form-agregar textarea{
+    background-color: #632315;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: #FEF5C8;
+    
+}
+input::placeholder, textarea::placeholder{
+    color: #fffdf1;
+}
+input::focus, textarea::focus{
+    border: none;
+}
+#form-agregar button {
+    background-color: #632315;
+    color: #fffcea;
+    border: none;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100px;
+    transition: all 0.5s ease;
+}
+
+.form-editar{
+   
+    flex-direction:row;
+    gap: 10px;
+    width: 30%;
+    margin: 10px;
+    margin-left: -2px;
+}
+
+.form-editar input{
+    background-color: #FEF5C8;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: #632315;
+    margin: 5px;
+    width: 200px;
+    height: 30px;
+}
+.form-editar textarea{
+    background-color: #FEF5C8;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: #632315;
+    margin: 5px;
+    min-width: 200px;
+    max-height: 30px;
+}
